@@ -1,4 +1,4 @@
-import 'package:elevate_module_generator/elevate_module_generator.dart';
+import 'package:elevate_generator/elevate_generator.dart';
 
 void main() {
   var awesome = Awesome();

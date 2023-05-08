@@ -1,4 +1,4 @@
-import 'package:elevate_module_generator/elevate_module_generator.dart';
+import 'package:elevate_annotation/elevate_annotation.dart';
 import 'package:test/test.dart';
 
 void main() {
