@@ -1,8 +1,3 @@
-class ConfigSlice {
-  final bool? usePlatformEnv;
-  const ConfigSlice({this.usePlatformEnv});
-}
-
 class ConfigKey {
   final bool? envDisabled;
   final bool? usePlatformEnv;
