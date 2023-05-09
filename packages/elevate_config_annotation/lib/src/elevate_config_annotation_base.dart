@@ -1,6 +1,16 @@
-// TODO: Put public facing types in this file.
+class ConfigSlice {
+  final bool? usePlatformEnv;
+  const ConfigSlice({this.usePlatformEnv});
+}
 
-/// Checks if you are awesome. Spoiler: you are.
-class Awesome {
-  bool get isAwesome => true;
+class ConfigKey {
+  final bool? envDisabled;
+  final bool? usePlatformEnv;
+  final String envKey;
+  final Function(String input)? transformer;
+  const ConfigKey(
+      {required this.envKey,
+      this.envDisabled,
+      this.usePlatformEnv,
+      this.transformer});
 }
